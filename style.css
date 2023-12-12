@@ -50,9 +50,6 @@ body
 
 .center 
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     margin: auto;
     top: 0;
@@ -61,4 +58,43 @@ body
     left: 0;
     background: rgba(75, 75, 250, 0.3);
     border-radius: 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
 }
+
+.navbar
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.title-name
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-element
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 6;
+}
+
+.github-img
+{
+    width: 50px;
+}
+
