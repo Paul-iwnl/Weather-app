@@ -83,7 +83,40 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
+input,
+button 
+{
+    box-sizing: border-box;
+}
+
+.search-element > *
+{
+    height: 35px;
+    border: 0px;
+}
+
+input
+{
+    width: 60%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 20px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+.search-button
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+}   
 
 .github-logo
 {
@@ -97,4 +130,3 @@ body
 {
     width: 50px;
 }
-
