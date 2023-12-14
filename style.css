@@ -229,25 +229,72 @@ input:focus
 
 .wind-speed-information-grid
 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .humidity-information-grid
 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .uv-index-information-grid
 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .visibility-information-grid
 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cloudiness-information-grid
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.chances-of-rain-information-grid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sunrise-time-information-grid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sunset-time-information-grid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.moon-phase-information-grid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
